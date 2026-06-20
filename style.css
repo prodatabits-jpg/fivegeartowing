@@ -24,11 +24,16 @@ position:sticky;
 top:0;
 z-index:100;
 }
-
+.logo img{
+    height:80px;
+    width:auto;
+    max-width:250px;
+    display:block;
+}
 .nav{
-display:flex;
-justify-content:space-between;
-align-items:center;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
 }
 
 .call-btn{
