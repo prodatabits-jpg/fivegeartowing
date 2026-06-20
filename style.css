@@ -165,3 +165,77 @@ gap:10px;
 }
 
 }
+
+.gallery{
+padding:80px 0;
+background:#111827;
+}
+
+.gallery h2{
+text-align:center;
+margin-bottom:40px;
+}
+
+.gallery-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.gallery-grid img{
+width:100%;
+height:250px;
+object-fit:cover;
+border-radius:12px;
+transition:.3s;
+}
+
+.gallery-grid img:hover{
+transform:scale(1.05);
+}
+
+.testimonials{
+padding:80px 0;
+}
+
+.testimonial-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:20px;
+}
+
+.testimonial{
+background:#1e293b;
+padding:25px;
+border-radius:10px;
+}
+
+.quote{
+padding:80px 0;
+background:#111827;
+}
+
+.quote form{
+display:flex;
+flex-direction:column;
+gap:15px;
+max-width:700px;
+margin:auto;
+}
+
+.quote input,
+.quote select,
+.quote textarea{
+padding:15px;
+border:none;
+border-radius:8px;
+}
+
+.quote button{
+background:#dc2626;
+color:white;
+padding:15px;
+border:none;
+border-radius:8px;
+cursor:pointer;
+}
