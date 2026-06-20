@@ -244,3 +244,26 @@ border:none;
 border-radius:8px;
 cursor:pointer;
 }
+.logo{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.logo img{
+    height:80px;
+    width:auto;
+    max-width:120px;
+}
+
+.company-info h2{
+    margin:0;
+    color:white;
+    font-size:24px;
+}
+
+.company-info p{
+    margin:0;
+    color:#f59e0b;
+    font-size:12px;
+}
