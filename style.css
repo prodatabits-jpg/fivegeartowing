@@ -10,11 +10,7 @@ background:#0f172a;
 color:white;
 line-height:1.6;
 }
-.logo img{
-height:80px;
-width:auto;
-display:block;
-}
+
 .container{
 width:90%;
 max-width:1200px;
