@@ -5,7 +5,3 @@ function rotateHero(){
  hero.style.backgroundImage=`linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),url('${heroImages[i]}')`;
  i=(i+1)%heroImages.length;
 }
-
-const slides=document.querySelector('.slides');
-document.getElementById('next').onclick=()=>slides.scrollBy({left:340,behavior:'smooth'});
-document.getElementById('prev').onclick=()=>slides.scrollBy({left:-340,behavior:'smooth'});
