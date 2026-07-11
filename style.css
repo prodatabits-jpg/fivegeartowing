@@ -81,14 +81,7 @@ header{
 height:90vh;background-size:cover;background-position:center;transition:background-image 1s
 }
 
-.overlay{
-background:rgba(0,0,0,0.65);
-height:100%;
-display:flex;
-justify-content:center;
-align-items:center;
-text-align:center;
-}
+.overlay{height:100%;display:flex;justify-content:center;align-items:center;background:rgba(0,0,0,.45);color:#fff;text-align:center}
 
 .hero h1{
     color:#fff;
