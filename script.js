@@ -5,3 +5,5 @@ function rotateHero(){
  hero.style.backgroundImage=`linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),url('${heroImages[i]}')`;
  i=(i+1)%heroImages.length;
 }
+rotateHero();
+setInterval(rotateHero,4000);
