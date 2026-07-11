@@ -78,39 +78,21 @@ header{
 /* Hero */
 
 .hero{
-    position:relative;
-    height:90vh;
-    overflow:hidden;
-}
+height:90vh;background-size:cover;background-position:center;transition:background-image 1s),
+url("truck.jpeg");
 
-.hero-bg{
-    position:absolute;
-    inset:0;
-    background-size:cover;
-    background-position:center;
-    background-repeat:no-repeat;
-    transition:opacity 1.5s ease-in-out;
-}
-
-#bg1{
-    opacity:1;
-    z-index:1;
-}
-
-#bg2{
-    opacity:0;
-    z-index:2;
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
 }
 
 .overlay{
-    position:relative;
-    z-index:5;
-    height:100%;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
-    background:rgba(10,55,100,.35);
+background:rgba(0,0,0,0.65);
+height:100%;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
 }
 
 .hero h1{
