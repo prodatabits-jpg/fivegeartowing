@@ -1,11 +1,42 @@
-const hero=document.querySelector('.hero');
-const heroImages=['truck1.jpeg','truck2.jpeg','truck3.jpeg','truck4.jpeg','truck5.jpeg'];
-let i=0;
+const heroImages = [
+    "truck1.jpeg",
+    "truck2.jpeg",
+    "truck3.jpeg",
+    "truck4.jpeg",
+    "truck5.jpeg"
+];
+
+const bg1 = document.getElementById("bg1");
+const bg2 = document.getElementById("bg2");
+
+let current = 0;
+let showingFirst = true;
+
+bg1.style.backgroundImage = `url('${heroImages[0]}')`;
+
 function rotateHero(){
- hero.style.backgroundImage=`linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),url('${heroImages[i]}')`;
- i=(i+1)%heroImages.length;
+
+    current = (current + 1) % heroImages.length;
+
+    if(showingFirst){
+
+        bg2.style.backgroundImage = `url('${heroImages[current]}')`;
+
+        bg2.style.opacity = 1;
+        bg1.style.opacity = 0;
+
+    }else{
+
+        bg1.style.backgroundImage = `url('${heroImages[current]}')`;
+
+        bg1.style.opacity = 1;
+        bg2.style.opacity = 0;
+
+    }
+
+    showingFirst = !showingFirst;
 }
-rotateHero();
+
 setInterval(rotateHero,4000);
 
 const slides=document.querySelector('.slides');
