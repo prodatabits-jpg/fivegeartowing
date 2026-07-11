@@ -78,13 +78,7 @@ header{
 /* Hero */
 
 .hero{
-    height:90vh;
-    background:
-    linear-gradient(rgba(10,55,100,.35),rgba(10,55,100,.45)),
-    url("truck.jpeg");
-    background-size:cover;
-    background-position:center;
-    background-repeat:no-repeat;
+   height:90vh;background-size:cover;background-position:center;transition:background-image 1s
 }
 
 .overlay{
