@@ -58,6 +58,24 @@ const Config = {
             file: "truck (5).jpeg",
             desktop: "center center",
             mobile: "top center"
+        },
+
+        {
+            file: "truck (10).jpeg",
+            desktop: "center center",
+            mobile: "top center"
+        },
+
+        {
+            file: "truck (11).jpeg",
+            desktop: "center center",
+            mobile: "top center"
+        },
+
+        {
+            file: "truck (12).jpeg",
+            desktop: "center center",
+            mobile: "top center"
         }
 
     ],
