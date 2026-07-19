@@ -97,10 +97,7 @@ const Config = {
         "img (13).jpeg",
         "img (14).jpeg",
         "img (15).jpeg",
-        "img (16).jpeg",
-        "img (17).jpeg",
-
-
+        "img (16).jpeg"
     ]
 
 };
